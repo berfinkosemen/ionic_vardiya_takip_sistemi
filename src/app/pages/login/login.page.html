@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button text="" defaultHref="/welcome"></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      Giriş Yap
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <br>
+  <br>
+  
+
+  <ion-list class="ion-padding">
+    <ion-item>
+      <img src="../assets/img/vardiya2.jpg"/>
+    </ion-item>
+  </ion-list>
+
+  <br>
+  <ion-list class="ion-padding">
+    <ion-item>
+      <ion-label color="primary" positin="floating">E-mail</ion-label>
+      <ion-input type="email" [(ngModel)] = "email"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label color="primary" positin="floating">Şifre</ion-label>
+      <ion-input type="password" [(ngModel)] = "password"></ion-input>
+    </ion-item>
+    <br>
+    <br>
+    <br> 
+    <ion-button expand="full" (click)="tryLogin()"> GİRİŞ YAP</ion-button>   
+  </ion-list>
+
+</ion-content>
+

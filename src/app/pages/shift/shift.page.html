@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button text="" defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      Vardiya Bilgi
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list class="ion-padding">
+    
+    <h2 style="text-align:center;">Vardiya Bilgilerinizi Giriniz</h2>
+    <img src= "../assets/img/resim3.png">
+    <br>
+    <br>
+    <ion-item>
+      <ion-label>Bu Günün Tarihi</ion-label>
+      <ion-datetime displayFormat="DD MM YYYY" placeolder="Bugünün Tarihi" [(ngModel)]="u_date"></ion-datetime>
+    </ion-item>   
+    <ion-item>
+      <ion-label>Durum</ion-label>
+      <ion-select [(ngModel)] = "u_durum">
+        <ion-select-option value="vardiyadayim">Vardiyadayım</ion-select-option>
+        <ion-select-option value="vardiyamBitti">Vardiyam Bitti</ion-select-option>
+      </ion-select>
+    </ion-item>   
+    <ion-item>
+      <ion-label>Saat Aralığı</ion-label>
+      <ion-select [(ngModel)] = "u_time">
+        <ion-select-option value="8.00-17.00">8-17</ion-select-option>
+        <ion-select-option value="17.00-24.00">17-24</ion-select-option>
+        <ion-select-option value="24.00-8.00">24-8</ion-select-option>
+      </ion-select>
+    </ion-item>   
+    <br>
+    <br>
+    <ion-button expand="full" (click)="trySave()" [disabled]="disabledbutton">Kaydet</ion-button>
+
+  </ion-list>
+</ion-content>
+

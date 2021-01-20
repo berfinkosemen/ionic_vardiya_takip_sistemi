@@ -1,0 +1,57 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button text="" defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      listele
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list class="ion-padding">
+    <h1 style="text-align:center;">Yapılacak Görevlerinizi Ekleyiniz</h1>
+    <ion-item>
+      <ion-label position="floating">Görev bir</ion-label>
+      <ion-input type="text" [(ngModel)]="g1"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Görev iki</ion-label>
+      <ion-input type="text" [(ngModel)]="g2"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Görev üç</ion-label>
+      <ion-input type="text" [(ngModel)]="g3"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Görev dört</ion-label>
+      <ion-input type="text" [(ngModel)]="g4"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Görev beş</ion-label>
+      <ion-input type="text" [(ngModel)]="g5"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Görev altı</ion-label>
+      <ion-input type="text" [(ngModel)]="g6"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Görev yedi</ion-label>
+      <ion-input type="text" [(ngModel)]="g7"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Görev sekiz</ion-label>
+      <ion-input type="text" [(ngModel)]="g8"></ion-input>
+    </ion-item>
+    
+    <ion-button expand="full" (click)="tryMakeList()" [disabled]="disabledbutton">Listeni Oluştur</ion-button>
+  </ion-list>
+</ion-content>

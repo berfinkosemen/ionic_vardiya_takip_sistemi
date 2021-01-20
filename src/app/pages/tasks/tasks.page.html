@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button text="" defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      Yapılacaklar Listesi
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div style="padding-top:0px">
+    <h3 style="text-align:center;" class="title"> Yapılacaklar Listesi </h3>
+  <!-- Checkboxes in a List -->
+    <ion-list>
+      <ion-item *ngFor="let entry of form">
+        <ion-label>{{entry.val}}</ion-label>
+        <ion-checkbox color="danger" slot="start" [(ngModel)]="entry.isChecked" (ionChange)="updateBoxes()"></ion-checkbox>
+      </ion-item>
+    </ion-list>
+  </div>
+</ion-content>

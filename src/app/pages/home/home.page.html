@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="end">
+      <ion-button (click)="tryLogout()">
+        <ion-icon slot="icon-only" name="exit-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>
+      Merhaba, {{name}}
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  <ion-list>    
+    <br>
+    <br>
+    <br>
+    <div class="text-center">
+      <ion-button (click)="openCRUD()"> Bilgilerini Güncelle</ion-button>
+    </div>
+    <br>
+    <br>
+    <div class="text-center">
+      <ion-button routerLink="/shift"> Vardiya Bilgilerini Gir</ion-button>
+    </div>
+    <br>
+    <br>
+    <div class="text-center">
+      <ion-button routerLink="/employees"> İş Arkadaşlarını Listele</ion-button>
+    </div>
+    <br>
+    <br>
+    <div class="text-center">
+      <ion-button (click)="goCreatelist()"> Görevlerini Listeni Oluştur</ion-button>
+    </div>
+    <br>
+    <br>
+    <div class="text-center">
+      <ion-button (click)="goTasks()"> Görevlerini Listele</ion-button>
+    </div>
+  </ion-list>
+</ion-content>
