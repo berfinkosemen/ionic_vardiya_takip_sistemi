@@ -22,24 +22,27 @@ buton bulunmaktadır. Bu butonlar aracılığıyla projede gerçekleştirilen ö
 butonuda bulunur.
 
 ![](https://github.com/berfinkosemen/ionic_vardiya_takip_sistemi/blob/main/20210120_215030.gif)
-![](https://github.com/berfinkosemen/ionic_vardiya_takip_sistemi/blob/main/20210120_215319.gif)
 
 ilk butona, yani bilgilerimi güncelle butonuna tıklanması ile kullanıcı uyelik bilgilerini yenileyebilir. Kullanıcıdan çeşitli komponenetler kullanılarak alınan bilgiler
 servisler aracılığı ile update edilir.
 
   ![](https://github.com/berfinkosemen/ionic_vardiya_takip_sistemi/blob/main/20210120_215121.gif)
- 
+  
+ ikinci büton aracılığı ile ise progmamın asıl amacı olan vardiya bilgilerinin gün ile birlikte alınması işlemi gerçekleştirilir. 
+Alınan variler api aracılığı ile sisteme kaydedilir.
  
   ![](https://github.com/berfinkosemen/ionic_vardiya_takip_sistemi/blob/main/20210120_215146.gif)
+  
+  üçüncü buton yani................ butonu ile ise arkadaşlarımız listelenir. Ardından arama çubuğu ile text filter kullnarak
+yazılan harflere göre kullanıcılar arasında arama gerçekleştirilir  hangisinin arama çubuğu ile dinamik olarak arama 
+yapıp tıkladığımız 
+arkadaşımızn eğer vardiya bilgisini girmiş ise bigilerini görüntüleriz.
+
  
  ![](https://github.com/berfinkosemen/ionic_vardiya_takip_sistemi/blob/main/20210120_215220.gif)
  
-
  
- 
- ![](https://github.com/berfinkosemen/ionic_vardiya_takip_sistemi/blob/main/20210120_215030.gif)
- 
- 
+ ![](https://github.com/berfinkosemen/ionic_vardiya_takip_sistemi/blob/main/20210120_215319.gif)
  
  
  ![](https://github.com/berfinkosemen/ionic_vardiya_takip_sistemi/blob/main/20210120_215403.gif)
