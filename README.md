@@ -1,5 +1,6 @@
-# ionic_vardiya_takip_sistemi
+# ionic vardiya takip sistemi
 
+<h3>Berfin Kösemen 170201058</h3>
 
    Vardiya takip sistemi, vardiyalı veya nöbet tutulan işlerde çalışan insanlar için geliştirilmiştir. Bu uygulama ile hangi çalışanın hangi saatller aralığında çalıştığını görüntülebileceğiz. Böylelikle vardiyası bitmiş dinlenmekte, uykuda olan çalışanları istemeden rahatsız etme olasılığımızı ortadan kaldırmış oluyoruz. Çalışanların ne zaman ulaşılabilir olduklarına erişebileceğiz.
 
@@ -35,11 +36,13 @@ Alınan variler servis aracılığı ile sisteme kaydedilir.
   Üçüncü buton yani çalışanları listeleme butonu ile ise iş arkadaşlarımız listelenir. Ardından arama çubuğu ile text filter kullnarak yazılan harflere göre kullanıcılar arasında arama gerçekleştirilir. Tıkladığımız arkadaşımızın vardiya bilgilerine ulaşırız. Bu adımda pipe kullanımı gerçekleştirdim.
  
  ![](https://github.com/berfinkosemen/ionic_vardiya_takip_sistemi/blob/main/20210120_215220.gif)
+ 
  Dördüncü butonumuz ile bir yapılacak görevler listesi oluşturulur. Veriler servisler aracılığı ile veri tabanına aktarılır.
  
  ![](https://github.com/berfinkosemen/ionic_vardiya_takip_sistemi/blob/main/20210120_215319.gif)
  
  Son buton olan görevlerin listelenmesi butonu ile, bir önceki adımda yapılan listenin verileri veri tabanından çekilerek ve kullannıcının yeni girdileri ile de görevlerin adım adım takip edilebilmesi gerçekleştirilir. Bu adımda pipe kullanımı gerçekleştirdim.
+ 
  ![](https://github.com/berfinkosemen/ionic_vardiya_takip_sistemi/blob/main/20210120_215403.gif)
  
  
