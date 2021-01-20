@@ -22,6 +22,7 @@ buton bulunmaktadır. Bu butonlar aracılığıyla projede gerçekleştirilen ö
 butonuda bulunur.
 
 ![](https://github.com/berfinkosemen/ionic_vardiya_takip_sistemi/blob/main/20210120_215030.gif)
+![](https://github.com/berfinkosemen/ionic_vardiya_takip_sistemi/blob/main/20210120_215319.gif)
 
 ilk butona, yani bilgilerimi güncelle butonuna tıklanması ile kullanıcı uyelik bilgilerini yenileyebilir. Kullanıcıdan çeşitli komponenetler kullanılarak alınan bilgiler
 servisler aracılığı ile update edilir.
@@ -38,7 +39,7 @@ servisler aracılığı ile update edilir.
  
  ![](https://github.com/berfinkosemen/ionic_vardiya_takip_sistemi/blob/main/20210120_215030.gif)
  
- ![](https://github.com/berfinkosemen/ionic_vardiya_takip_sistemi/blob/main/20210120_215319.gif)
+ 
  
  
  ![](https://github.com/berfinkosemen/ionic_vardiya_takip_sistemi/blob/main/20210120_215403.gif)
