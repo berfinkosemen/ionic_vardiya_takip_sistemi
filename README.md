@@ -14,23 +14,27 @@ giriş sayfasına iletilir.
 
 Giriş yap butonuna basılması ile kullanıcıdan e mail ve şifre alınması, bu bilgilerin doğruluğu ile ansayfaya geçiş gerçekleştirilir.
 
-![](https://github.com/berfinkosemen/ionic_vardiya_takip_sistemi/blob/main/20210120_215030.gif)
+![](https://github.com/berfinkosemen/ionic_vardiya_takip_sistemi/blob/main/20210120_214928.gif)
+
 
 Anasayfa girişte storage kullanılarak kullanıcının ismine ulaşılır ve hoşgeldin.... şeklinde gösterilir. Anasayfada beş farklı 
 buton bulunmaktadır. Bu butonlar aracılığıyla projede gerçekleştirilen özelliklerin sayfalarına iletim sağlanır. Ayrıca sayfada logout 
 butonuda bulunur.
 
+![](https://github.com/berfinkosemen/ionic_vardiya_takip_sistemi/blob/main/20210120_215030.gif)
 
-![](https://github.com/berfinkosemen/ionic_vardiya_takip_sistemi/blob/main/20210120_214928.gif)
-
-ilk butona tıklanması ile kullanıcı uyerlik bilgilerini yenileyebilir. Kullanıcıdan çeşitli komponenetler kullanılarak alınan bilgiler
+ilk butona, yani bilgilerimi güncelle butonuna tıklanması ile kullanıcı uyelik bilgilerini yenileyebilir. Kullanıcıdan çeşitli komponenetler kullanılarak alınan bilgiler
 servisler aracılığı ile update edilir.
  
- 
  ![](https://github.com/berfinkosemen/ionic_vardiya_takip_sistemi/blob/main/20210120_215403.gif)
+ 
  ![](https://github.com/berfinkosemen/ionic_vardiya_takip_sistemi/blob/main/20210120_215319.gif)
+ 
  ![](https://github.com/berfinkosemen/ionic_vardiya_takip_sistemi/blob/main/20210120_215220.gif)
+ 
  ![](https://github.com/berfinkosemen/ionic_vardiya_takip_sistemi/blob/main/20210120_215146.gif)
+ 
  ![](https://github.com/berfinkosemen/ionic_vardiya_takip_sistemi/blob/main/20210120_215121.gif)
+ 
  ![](https://github.com/berfinkosemen/ionic_vardiya_takip_sistemi/blob/main/20210120_215030.gif)
  
