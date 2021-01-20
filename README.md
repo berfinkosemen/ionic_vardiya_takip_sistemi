@@ -4,44 +4,43 @@
 
    Vardiya takip sistemi, vardiyalı veya nöbet tutulan işlerde çalışan insanlar için geliştirilmiştir. Bu uygulama ile hangi çalışanın hangi saatller aralığında çalıştığını görüntülebileceğiz. Böylelikle vardiyası bitmiş dinlenmekte, uykuda olan çalışanları istemeden rahatsız etme olasılığımızı ortadan kaldırmış oluyoruz. Çalışanların ne zaman ulaşılabilir olduklarına erişebileceğiz.
 
-  Proje çalıştırıldığında karşımıza projenin adının yazılı olduğu bir sayfa gelicek bu sayfadan ileri gidilmesi ile de projenin amacına genel olarak anlatan, kayıt ol ve giriş butonlarının bulunduğu bir sayfa açılacak. Bu geçişli sayfa slide komponentinin kullnaılması ile gerçekleştirilmiştir. Kayıt ol ve giriş butonları ile navigosyon kullnarak sayfa geçişi gerçekleştirilmiştir.
+ Proje çalıştırıldığında karşımıza projenin adının yazılı olduğu bir sayfa gelicek bu sayfadan ileri gidilmesi ile de projenin amacına genel olarak anlatan, kayıt ol ve giriş butonlarının bulunduğu bir sayfa açılacak. Bu geçişli sayfa slide komponentinin kullnaılması ile gerçekleştirilmiştir. Kayıt ol ve giriş butonları ile navigosyon kullnarak sayfa geçişi gerçekleştirilmiştir. (welcome pages)
 
 ![](https://github.com/berfinkosemen/ionic_vardiya_takip_sistemi/blob/main/1.gif)
 
-   Kayıt ol butonuna basılması ile kullanıcıdan bilgiler alınır koşulların incelenmesi sonucunda veri tabanına api aracılığı ile kayıt edilir. Kullanıcıdan bilgiler alınırken date time pickers komponentleride kullanılmıştır. Kayıt edinilen kullanıcı
-giriş sayfasına iletilir.
+ Kayıt ol butonuna basılması ile kullanıcıdan bilgiler alınır koşulların incelenmesi sonucunda veri tabanına api aracılığı ile kayıt edilir. Kullanıcıdan bilgiler alınırken date time pickers komponentleride kullanılmıştır. Kayıt edinilen kullanıcıgiriş sayfasına iletilir.  (registration pages) 
 
 ![](https://github.com/berfinkosemen/ionic_vardiya_takip_sistemi/blob/main/20210120_192616.gif)
 
-   Giriş yap butonuna basılması ile kullanıcıdan e mail ve şifre alınması, bu bilgilerin doğruluğu ile ansayfaya geçiş gerçekleştirilir.
+  Giriş yap butonuna basılması ile kullanıcıdan e mail ve şifre alınması, bu bilgilerin doğruluğu ile ansayfaya geçiş gerçekleştirilir.(login pages)
 
 ![](https://github.com/berfinkosemen/ionic_vardiya_takip_sistemi/blob/main/20210120_214928.gif)
 
-   Anasayfa girişte storage kullanılarak kullanıcının ismine ulaşılır ve hoşgeldin.... şeklinde gösterilir. Anasayfada beş farklı 
+ Anasayfa girişte storage kullanılarak kullanıcının ismine ulaşılır ve hoşgeldin.... şeklinde gösterilir. Anasayfada beş farklı 
 buton bulunmaktadır. Bu butonlar aracılığıyla projede gerçekleştirilen özelliklerin sayfalarına iletim sağlanır. Ayrıca sayfada logout 
-butonuda bulunur.
+butonuda bulunur. (home pages)
 
 ![](https://github.com/berfinkosemen/ionic_vardiya_takip_sistemi/blob/main/20210120_215030.gif)
 
-   İlk butona, yani bilgilerimi güncelle butonuna tıklanması ile kullanıcı uyelik bilgilerini yenileyebilir. Kullanıcıdan çeşitli komponenetler kullanılarak alınan bilgiler
-servisler aracılığı ile update edilir.
+ İlk butona, yani bilgilerimi güncelle butonuna tıklanması ile kullanıcı uyelik bilgilerini yenileyebilir. Kullanıcıdan çeşitli komponenetler kullanılarak alınan bilgiler
+servisler aracılığı ile update edilir. (crud pages) 
 
   ![](https://github.com/berfinkosemen/ionic_vardiya_takip_sistemi/blob/main/20210120_215121.gif)
   
    İkinci buton, yani vardiya saatlerinin girlimesi butonu aracılığı ile ise progmamın asıl amacı olan vardiya bilgilerinin gün ile birlikte alınması işlemi gerçekleştirilir. 
-Alınan variler servis aracılığı ile sisteme kaydedilir.
+Alınan variler servis aracılığı ile sisteme kaydedilir.(shift pages)
  
   ![](https://github.com/berfinkosemen/ionic_vardiya_takip_sistemi/blob/main/20210120_215146.gif)
   
-  Üçüncü buton yani çalışanları listeleme butonu ile ise iş arkadaşlarımız listelenir. Ardından arama çubuğu ile text filter kullnarak yazılan harflere göre kullanıcılar arasında arama gerçekleştirilir. Tıkladığımız arkadaşımızın vardiya bilgilerine ulaşırız. Bu adımda pipe kullanımı gerçekleştirdim.
+  Üçüncü buton yani çalışanları listeleme butonu ile ise iş arkadaşlarımız listelenir. Ardından arama çubuğu ile text filter kullnarak yazılan harflere göre kullanıcılar arasında arama gerçekleştirilir. Tıkladığımız arkadaşımızın vardiya bilgilerine ulaşırız. Bu adımda pipe kullanımı gerçekleştirdim.(employees pages)
  
  ![](https://github.com/berfinkosemen/ionic_vardiya_takip_sistemi/blob/main/20210120_215220.gif)
  
- Dördüncü butonumuz ile bir yapılacak görevler listesi oluşturulur. Veriler servisler aracılığı ile veri tabanına aktarılır.
+ Dördüncü butonumuz ile bir yapılacak görevler listesi oluşturulur. Veriler servisler aracılığı ile veri tabanına aktarılır.(createlist pages)
  
  ![](https://github.com/berfinkosemen/ionic_vardiya_takip_sistemi/blob/main/20210120_215319.gif)
  
- Son buton olan görevlerin listelenmesi butonu ile, bir önceki adımda yapılan listenin verileri veri tabanından çekilerek ve kullannıcının yeni girdileri ile de görevlerin adım adım takip edilebilmesi gerçekleştirilir. Bu adımda pipe kullanımı gerçekleştirdim.
+ Son buton olan görevlerin listelenmesi butonu ile, bir önceki adımda yapılan listenin verileri veri tabanından çekilerek ve kullannıcının yeni girdileri ile de görevlerin adım adım takip edilebilmesi gerçekleştirilir. Bu adımda pipe kullanımı gerçekleştirdim.(tasks pages)
  
  ![](https://github.com/berfinkosemen/ionic_vardiya_takip_sistemi/blob/main/20210120_215403.gif)
  
